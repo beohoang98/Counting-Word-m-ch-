@@ -4,42 +4,80 @@
 #include <wchar.h>
 #include <malloc.h>
 
-int DocTuDien(wchar_t* filename, danhSachTu &DS) {
-	FILE * f = _wfopen(filename, L"r,ccs=UTF-16LE");
-	if (!f) {
-		return false;
+
+///---------------------------main function-----------------------------
+
+//read Dictionary
+void DocTuDien(wchar_t ch, danhSachTu dic[24], _danhSachNguyenAm * DS_vowel)
+{
+	wchar_t s[50], s1[10] = L"a.txt";
+	wchar_t *tmp = NULL;
+	wchar_t letter;
+	int vt = vowelOrder(mytoLower(ch, DS_vowel), s1[0]);
+	if (dic[vt].soTu > 0) return;
+
+	wcscpy(s, DUONG_DAN_TU_DIEN);
+	wcscat(s, s1);
+	FILE *f = _wfopen(s, L"r,ccs=UTF-16LE");
+
+	dic[vt].soTu = 0;
+	dic[vt].tu = NULL;
+	if (!f)
+	{
+		printf("FILE NOT FOUND");
+		return;
 	}
-	else {
-		DS.soTu = 0;
-		wchar_t c;
-		wchar_t s[50];
+	while (!feof(f))
+	{	
+		fwscanf(f, L"%lc", &letter);
+		fgetws(s, 50, f);
+		
+		s[wcslen(s) - 1] = '\0';
 
-		while (!feof(f)) {
-			c = L' ';
-			while (c != L'@' && !feof(f)) fwscanf(f, L"%lc", &c);// doc dau @
-			fwscanf(f, L"%[^\n]ls", &s); //doc chu
-			int len = wcslen(s);
+		dic[vt].tu = (wchar_t**)realloc(dic[vt].tu, (dic[vt].soTu+1)*sizeof(wchar_t*));
+		tmp = new wchar_t[(wcslen(s) + 1)];
 
-			DS.tu = (wchar_t**)realloc(DS.tu, (DS.soTu + 1)*sizeof(wchar_t*)); //tao them du lieu
-			
-			DS.tu[DS.soTu] = new wchar_t[len];
-			wcscpy(DS.tu[DS.soTu], s);
-
-			++DS.soTu;
+		for (int i = 0; i < wcslen(s); i++)
+		{
+			tmp[i] = s[i];
 		}
+		tmp[wcslen(s)] = '\0';
 
-		fclose(f);
-		return true;
+		dic[vt].tu[dic[vt].soTu] = tmp;
+		dic[vt].soTu++;
 	}
+
+	fclose(f);
 }
 
-int DocTuDienTheoChuCai(wchar_t chuCai, danhSachTu &DS, _danhSachNguyenAm * dsNgAm) {
-	int len = wcslen(DUONG_DAN) + 6;
-	wchar_t * tenFile = new wchar_t[len];
-	wcscpy(tenFile, DUONG_DAN);
-	tenFile[len - 6] = ToNguyenAm(chuCai, dsNgAm);
-	tenFile[len - 6 + 1] = L'\0';
-	wcscat(tenFile, L".txt");
+///----------------------------sub function-----------------------------
 
-	return DocTuDien(tenFile, DS);
+//lay so thu tu cua chu cai trong tu dien
+int vowelOrder(wchar_t vowel, wchar_t &outVowel) {
+	wchar_t filename[50];
+	wcscpy(filename, DUONG_DAN);
+	wcscat(filename, L"ThuTuNguyenAm.txt");
+
+	FILE *f = _wfopen(filename, L"r,ccs=UTF-16LE");
+	if (!f) {
+		return -1;
+	}
+
+	int order = 0;
+	wchar_t c;
+	while (!feof(f)) {
+		fwscanf(f, L"%d ", &order);
+		fwscanf(f, L"%lc", &c);
+		outVowel = c;
+		while ((c != L'.') && !feof(f)) {
+			if (c == vowel) {
+				fclose(f);
+				return order;
+			}
+			fwscanf(f, L"%lc", &c);
+		}
+	}
+
+	fclose(f);
+	return -1;
 }

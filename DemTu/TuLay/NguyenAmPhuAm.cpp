@@ -34,6 +34,8 @@ _danhSachNguyenAm DocDSNguyenAm(wchar_t * filename) {
 	fclose(f);
 	return DS;
 }
+
+//chuyen cai nguyen am dac biet thanh nguyen am thuong
 wchar_t ToNguyenAm(wchar_t a, _danhSachNguyenAm * DS) {
 	a = towlower(a);
 	for (int i = 0; i < DS->soAm; ++i) {
@@ -45,9 +47,13 @@ wchar_t ToNguyenAm(wchar_t a, _danhSachNguyenAm * DS) {
 	}
 	return L'\0';
 }
+
+//chuyen cac phu am dac biet thanh phu am thuong
 wchar_t ToPhuAm(wchar_t a) {
 	return (towlower(a));
 }
+
+//chuyen chu cai xuong nguyen am thuong
 wchar_t mytoLower(wchar_t a, _danhSachNguyenAm * DS) {
 	wchar_t c = ToNguyenAm(a, DS);
 	if (c == L'\0') c = ToPhuAm(a);

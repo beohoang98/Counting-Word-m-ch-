@@ -1,9 +1,9 @@
 #ifndef TODON_H
 #define TODON_H
 
+#include <wchar.h>
 #include "../DocTuDien/DocTuDien.h"
 
-int KiemTraTuDon(char tuKT);
-int SearchTuDon(char tuKT, danhSachTu * dsTu);
+bool KiemTraTuDon(wchar_t *s, danhSachTu td[24], _danhSachNguyenAm &DS_vowel);
 
 #endif
