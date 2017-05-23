@@ -1,0 +1,678 @@
+﻿@ra
+@ra bài
+@ra bảng
+@ra công
+@ra dáng
+@ra-đa
+@ra đi
+@ra đi
+@ra đi an
+@ra đi om
+@ra đi ô
+@ra điều
+@ra đời
+@ra gì
+@ra giêng
+@ra hè
+@ra hiệu
+@ra kiểu
+@ra lệnh
+@ra mắt
+@ra mặt
+@ra miệng
+@ra mồm
+@ra người
+@ra oai
+@ra ơn
+@ra phá
+@ra phết
+@ra rả
+@ra ràng
+@ra rìa
+@ra sao
+@ra sức
+@ra tay
+@ra tòa
+@ra tro
+@ra trò
+@ra tuồng
+@ra vẻ
+@rà
+@rà rẫm
+@rả rích
+@rã
+@rã đám
+@rã họng
+@rã rời
+@rã rượi
+@rá
+@rạ
+@rác
+@rác rưởi
+@rạc
+@rạc cẳng
+@rạc rài
+@rạc rời
+@rách
+@rách bươm
+@rách mướp
+@rách rưới
+@rách tươm
+@rách tướp
+@rạch
+@rạch ròi
+@rải
+@rải rác
+@rải rắc
+@rái
+@rái cá
+@ram
+@ram ráp
+@rám
+@rám nắng
+@rạm
+@ran
+@ran rát
+@ràn
+@rán
+@rạn
+@rạn nứt
+@rang
+@ràng
+@ràng buộc
+@ràng rạng
+@ràng rịt
+@ráng
+@rạng
+@rạng danh
+@rạng đông
+@rạng mai
+@rạng ngày
+@rạng rỡ
+@ranh
+@ranh con
+@ranh giới
+@ranh ma
+@ranh mãnh
+@ranh vặt
+@rành
+@rành mạch
+@rành rành
+@rành rọt
+@rảnh
+@rảnh mắt
+@rảnh nợ
+@rảnh rang
+@rảnh tay
+@rảnh thân
+@rảnh việc
+@rãnh
+@rao
+@rao hàng
+@rào
+@rào đón
+@rào giậu
+@rào rào
+@rào rạo
+@rảo
+@rão
+@ráo
+@ráo hoảnh
+@ráo riết
+@rạo
+@rạo rực
+@ráp
+@ráp rạp
+@rạp
+@rát
+@rát mặt
+@rát ruột
+@rau
+@rau bí
+@rau cải
+@rau cần
+@rau câu
+@rau cỏ
+@rau dệu
+@rau diếp
+@rau dưa
+@rau đay
+@rau đậu
+@rau ghém
+@rau giền
+@rau húng
+@rau khúc
+@rau lang
+@rau má
+@rau mảnh bát
+@rau mùi
+@rau muối
+@rau muống
+@rau ngót
+@rau ngổ
+@rau ráu
+@rau răm
+@rau rút
+@rau sam
+@rau sắng
+@rau sống
+@rau tàu bay
+@rau thơm
+@rau xà-lách
+@ray
+@rày
+@rảy
+@ráy
+@ráy tai
+@rắc
+@rắc rối
+@rắc rối tơ
+@rặc
+@răm
+@răm rắp
+@rằm
+@rắm
+@rắm rít
+@rặm
+@răn
+@răn bảo
+@rằn
+@rằn ri
+@rắn
+@rắn cạp nong
+@rắn cấc
+@rắn chắc
+@rắn đòn cân
+@rắn độc
+@rắn gió
+@rắn giun
+@rắn hổ lửa
+@rắn hổ mang
+@rắn lục
+@rắn mai gầm
+@rắn mặt
+@rắn nước
+@rắn rết
+@rắn rỏi
+@rặn
+@răng
+@răng bàn cuốc
+@răng cải mả
+@răng cưa
+@răng cửa
+@răng giả
+@răng hàm
+@răng khôn
+@răng nanh
+@răng rắc
+@răng sữa
+@răng vẩu
+@rằng
+@rặng
+@rắp
+@rắp ranh
+@rắp tâm
+@rặt
+@râm
+@râm bụt
+@rầm
+@rầm rầm
+@rầm rập
+@rầm rì
+@rầm rĩ
+@rầm rộ
+@rấm
+@rấm bếp
+@rấm vợ
+@rậm
+@rậm lời
+@rậm rạp
+@rậm râu
+@rậm rì
+@rân
+@rần rần
+@rấn
+@rấn bước
+@rấn sức
+@rận
+@rấp
+@rập
+@rập khuôn
+@rập rình
+@rập rờn
+@rất
+@rất đỗi
+@rất mực
+@râu
+@râu ba chòm
+@râu cằm
+@râu hầm
+@râu hoa kỳ
+@râu mày
+@râu mép
+@râu quai nón
+@râu quặp
+@râu ria
+@râu trê
+@râu xồm
+@rầu
+@rầu rĩ
+@rây
+@rầy
+@rầy la
+@rầy rà
+@rầy rật
+@rẫy
+@rè
+@rè rè
+@rẻ
+@rẻ rúng
+@rẻ tiền
+@rẽ
+@rẽ ràng
+@rẽ ròi
+@ré
+@rèm
+@ren
+@ren rén
+@rèn
+@rèn cặp
+@rèn đúc
+@rèn luyện
+@rén
+@reo
+@reo hò
+@reo mừng
+@rèo rẹo
+@rẻo
+@rẻo cao
+@réo
+@rẹo rọc
+@rét
+@rét buốt
+@rét căm căm
+@rét đài
+@rét lộc
+@rét mướt
+@rét nàng bân
+@rét ngọt
+@rê
+@rề rà
+@rề rề
+@rể
+@rễ
+@rễ cái
+@rễ chùm
+@rễ cọc
+@rễ con
+@rễ cột
+@rễ củ
+@rễ phụ
+@rế
+@rếch
+@rếch rác
+@rên
+@rên rẩm
+@rên rỉ
+@rên siết
+@rên xiết
+@rền
+@rền rĩ
+@rệp
+@rết
+@rêu
+@rêu rao
+@rệu
+@rệu rã
+@ri
+@ri
+@ri đá
+@ri rỉ
+@ri rí
+@ri sừng
+@rì rào
+@rì rầm
+@rì rì
+@rỉ
+@rỉ hơi
+@rỉ răng
+@rỉ tai
+@rí
+@rí rách
+@rí rỏm
+@rị
+@rị mọ
+@ria
+@rìa
+@rỉa
+@rỉa lông
+@rỉa ráy
+@rỉa rói
+@rịa
+@riêng
+@riêng biệt
+@riêng lẻ
+@riêng tây
+@riêng tư
+@riềng
+@riết
+@riết ráo
+@riết róng
+@riệt
+@riêu
+@riêu cua
+@rim
+@rím
+@rin rít
+@rĩn
+@rịn
+@rinh
+@rình
+@rình mò
+@rít
+@rít răng
+@rịt
+@riu riu
+@rìu
+@ríu
+@ríu lưỡi
+@ríu rít
+@ro ró
+@rò
+@rỏ
+@rỏ dãi
+@rỏ giọt
+@rõ
+@rõ ràng
+@rõ rệt
+@ró
+@rọ
+@rọ rạy
+@róc
+@róc rách
+@rọc
+@rọc giấy
+@rọc phách
+@roi
+@roi vọt
+@rọi
+@ròm
+@rón
+@rón rén
+@rón rón
+@rọn
+@rong
+@rong chơi
+@rong huyết
+@ròng
+@ròng rã
+@ròng rọc
+@ròng ròng
+@rót
+@rô
+@rồ
+@rồ dại
+@rổ
+@rỗ
+@rỗ hoa
+@rộ
+@rốc
+@rộc
+@rồi
+@rồi đây
+@rồi ra
+@rồi tay
+@rổi
+@rỗi
+@rỗi rãi
+@rỗi việc
+@rối
+@rối bời
+@rối bung
+@rối loạn
+@rối mắt
+@rối ren
+@rối rít
+@rối ruột
+@rối trí
+@rối tung
+@rôm
+@rôm rả
+@rôm sảy
+@rôm trò
+@rộm
+@rôn rốt
+@rốn
+@rốn bể
+@rốn chiêng
+@rốn lại
+@rộn
+@rộn rã
+@rộn ràng
+@rộn rạo
+@rộn rịp
+@rộn rực
+@rông
+@rông rổng
+@rồng
+@rồng rắn
+@rồng rồng
+@rỗng
+@rỗng hoác
+@rỗng không
+@rỗng tuếch
+@rống
+@rộng
+@rộng bụng
+@rộng cẳng
+@rộng chân
+@rộng khổ
+@rộng lòng
+@rộng lớn
+@rộng lượng
+@rộng rãi
+@rộp
+@rốt
+@rốt cuộc
+@rốt lòng
+@rơ
+@rờ
+@rờ mó
+@rờ rẫm
+@rờ rệt
+@rờ rỡ
+@rỡ
+@rỡ ràng
+@rớ
+@rợ
+@rơi
+@rơi lệ
+@rơi rớt
+@rơi rụng
+@rơi vãi
+@rời
+@rời miệng
+@rời ra
+@rời rã
+@rời rạc
+@rời rợi
+@rời tay
+@rơm
+@rơm rác
+@rơm rớm
+@rờm
+@rởm
+@rởm đời
+@rớm
+@rợm
+@rơn rớt
+@rờn rợn
+@rởn
+@rợn
+@rợn rợn
+@rợp
+@rợp bóng
+@rớt
+@rớt dãi
+@ru
+@ru ngủ
+@rù
+@rù rì
+@rù rờ
+@rù rù
+@rủ
+@rủ rê
+@rủ rỉ
+@rũ
+@rũ rượi
+@rũ tù
+@rú
+@rú rí
+@rua
+@rùa
+@rủa
+@rủa mát
+@rũa
+@rúc
+@rúc ráy
+@rúc rỉa
+@rúc rích
+@rục
+@rục rịch
+@rục xương
+@rui
+@rủi
+@rủi ro
+@rụi
+@rum
+@rùm
+@rùm beng
+@run
+@run rẩy
+@run run
+@run sợ
+@rùn
+@rủn
+@rún rẩy
+@rung
+@rung cảm
+@rung chuyển
+@rung động
+@rung rinh
+@rung rúc
+@rung rung
+@rùng
+@rùng mình
+@rùng rợn
+@rùng rùng
+@rủng ra rủng rỉnh
+@rủng rỉnh
+@rụng
+@rụng rời
+@ruốc
+@ruốc bông
+@ruồi
+@ruồi xanh
+@ruổi
+@ruộm
+@ruồng
+@ruồng bỏ
+@ruồng bố
+@ruồng rẫy
+@ruỗng
+@ruộng
+@ruộng bậc thang
+@ruộng biên
+@ruộng đất
+@ruộng mạ
+@ruộng muối
+@ruộng nương
+@ruộng rộc
+@ruộng vai
+@ruột
+@ruột gà
+@ruột gan
+@ruột già
+@ruột kết
+@ruột non
+@ruột rà
+@ruột thịt
+@ruột thừa
+@ruột tượng
+@ruột xe
+@rút
+@rút cục
+@rút cuộc
+@rút lui
+@rút ngắn
+@rút phép thông công
+@rút rát
+@rút ruột
+@rút thăm
+@rụt
+@rụt rè
+@rư
+@rưa rứa
+@rửa
+@rửa ảnh
+@rửa cưa
+@rửa ráy
+@rửa ruột
+@rửa tội
+@rữa
+@rứa
+@rựa
+@rựa quéo
+@rức
+@rực
+@rực rỡ
+@rưng rức
+@rưng rưng
+@rừng
+@rừng cấm
+@rừng chồi
+@rừng già
+@rừng nhám
+@rừng rú
+@rừng rực
+@rước
+@rước dâu
+@rước xách
+@rươi
+@rười rượi
+@rưởi
+@rưỡi
+@rưới
+@rườm
+@rườm rà
+@rườm tai
+@rướm
+@rườn rượt
+@rướn
+@rượn
+@rương
+@rường
+@rường cột
+@rượt
+@rượu
+@rượu bia
+@rượu cẩm
+@rượu cần
+@rượu chát
+@rượu chè
+@rượu chổi
+@rượu cồn
+@rượu đế
+@rượu khai vị
+@rượu lễ
+@rượu mạnh
+@rượu mùi
+@rượu nếp
+@rượu ngọn
+@rượu ngũ gia bì
+@rượu nho
+@rượu tăm
+@rượu thuốc
+@rượu vang
+@rứt
+@rứt ruột

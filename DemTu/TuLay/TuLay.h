@@ -5,8 +5,7 @@
 #include "NguyenAmPhuAm.h"
 
 #define _CRT_SECURE_NO_WARNINGS
-#define fileNguyenAm L"../DataIn/NguyenAmDau.txt"
-#define filePhuAmDau L"../DataIn/PhuAmDau.txt"
+
 
 wchar_t * PhuAmDau(wchar_t * s, _danhSachNguyenAm * dsNgAm);
 wchar_t * PhuAmCuoi(wchar_t * s, _danhSachNguyenAm * dsNgAm);

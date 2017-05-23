@@ -36,5 +36,13 @@
     <ClCompile Include="..\TuLay\NguyenAmPhuAm.cpp">
       <Filter>Source Files\Source</Filter>
     </ClCompile>
+    <ClCompile Include="ChuongTrinhChinh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChuongTrinhChinh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

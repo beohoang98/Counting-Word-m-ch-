@@ -1,5 +1,6 @@
 #include "NguyenAmPhuAm.h"
 #include <cwctype>
+#include <wchar.h>
 #include <stdio.h>
 #include <malloc.h>
 
@@ -34,6 +35,41 @@ _danhSachNguyenAm DocDSNguyenAm(wchar_t * filename) {
 	fclose(f);
 	return DS;
 }
+
+
+// Doc danh sach phu am
+_danhSachPhuAm DocDanhSachPhuAm(wchar_t *filename) {
+	_danhSachPhuAm A = { -1, 0 };
+
+	FILE *f = _wfopen(filePhuAmDau, L"r,ccs=UTF-16LE");
+	if (!f) return A;
+
+	wchar_t c;
+	wchar_t s[5];
+
+	A.soAm = 0;
+	A.phAm = NULL;
+
+	//doc dau @ dau tien
+	fwscanf(f, L"%lc", &c);
+
+	while (!feof(f)) {
+		fwscanf(f, L"%[^@]ls", s);
+		fwscanf(f, L"%lc", &c);
+
+		int len = wcslen(s);
+		A.phAm = (wchar_t**)realloc(A.phAm, (A.soAm + 1)*sizeof(wchar_t*));
+		A.phAm[A.soAm] = new wchar_t[len];
+		wcscpy(A.phAm[A.soAm], s);
+
+		A.soAm++;
+	}
+
+	fclose(f);
+	return A;
+}
+
+
 
 //chuyen cai nguyen am dac biet thanh nguyen am thuong
 wchar_t ToNguyenAm(wchar_t a, _danhSachNguyenAm * DS) {

@@ -1,0 +1,909 @@
+﻿@pa-ra-bon
+@pa-ra-phin
+@pác-séc
+@pê-đan
+@pha
+@pha lê
+@pha-lê
+@pha lửng
+@pha phôi
+@pha tiếng
+@pha trò
+@phà
+@phá
+@phá án
+@phá bĩnh
+@phá cách
+@phá cỗ
+@phá dải
+@phá đám
+@phá gia
+@phá giá
+@phá giới
+@phá hại
+@phá hoại
+@phá hoang
+@phá hoẵng
+@phá hủy
+@phá kỷ lục
+@phá ngang
+@phá nước
+@phá phách
+@phá quấy
+@phá rối
+@phá sản
+@phá tân
+@phá thai
+@phá thối
+@phá trận
+@phá trinh
+@phá vỡ
+@phác
+@phác họa
+@phác thảo
+@phác thực
+@phách
+@phách lối
+@phách tấu
+@phách trăng
+@phạch
+@phạch phạch
+@phai
+@phai nhạt
+@phải
+@phải bả
+@phải biết
+@phải cách
+@phải cái
+@phải chăng
+@phải chi
+@phải dấu
+@phải đạo
+@phải điều
+@phải đòn
+@phải đũa
+@phải đường
+@phải gái
+@phải giá
+@phải gió
+@phải giờ
+@phải khi
+@phải lại
+@phải lẽ
+@phải lòng
+@phải mặt
+@phải môn
+@phải như
+@phải quấy
+@phải rồi
+@phải thời
+@phải tội
+@phải vạ
+@phái
+@phái bộ
+@phái đẹp
+@phái đoàn
+@phái sinh
+@phái viên
+@phàm
+@phàm lệ
+@phàm nhân
+@phàm phu
+@phàm tục
+@phạm
+@phạm đồ
+@phạm húy
+@phạm luật
+@phạm nhân
+@phạm pháp
+@phạm phòng
+@phạm thượng
+@phạm trù
+@phạm vi
+@phàn nàn
+@phản
+@phản ảnh
+@phản ánh
+@phản bội
+@phản chiến
+@phản chiếu
+@phản chiếu suất
+@phản chứng
+@phản công
+@phản cung
+@phản diện
+@phản đề
+@phản đế
+@phản đối
+@phản động
+@phản gián
+@phản hồi
+@phản kháng
+@phản kích
+@phản lực
+@phản nghịch
+@phản ngựa
+@phản phúc
+@phản quốc
+@phản tặc
+@phản thùng
+@phản thuyết
+@phản tỉnh
+@phản tọa
+@phản trắc
+@phản ứng
+@phản xạ
+@phán
+@phán đoán
+@phán quyết
+@phán thán
+@phán xử
+@phạn
+@phạn ngữ
+@phang
+@phảng phất
+@phạng
+@phanh
+@phanh phui
+@phanh thây
+@phành phạch
+@phao
+@phao câu
+@phao ngôn
+@phao phí
+@phao tang
+@phào
+@pháo
+@pháo binh
+@pháo bông
+@pháo cối
+@pháo dây
+@pháo đài
+@pháo đại
+@pháo đập
+@pháo đùng
+@pháo hiệu
+@pháo hoa
+@pháo kích
+@pháo lệnh
+@pháo ống lệnh
+@pháo tép
+@pháo thăng thiên
+@pháo thủ
+@pháo thuyền
+@pháo tiểu
+@pháo tre
+@pháo xì
+@pháo xiết
+@pháp bảo
+@pháp chế
+@pháp danh
+@pháp lệnh
+@pháp lí
+@pháp luật
+@pháp lý
+@pháp nhân
+@pháp sư
+@pháp thuật
+@pháp trị
+@pháp trường
+@pháp viện
+@phát
+@phát âm
+@phát ban
+@phát bệnh
+@phát biểu
+@phát canh
+@phát chán
+@phát chẩn
+@phát đạt
+@phát điện
+@phát đoan
+@phát động
+@phát giác
+@phát hành
+@phát hiện
+@phát hỏa
+@phát huy
+@phát kiến
+@phát lưu
+@phát mại
+@phát minh
+@phát ngôn
+@phát ngũ sắc
+@phát nguyên
+@phát nương
+@phát phì
+@phát phiền
+@phát phù
+@phát quang
+@phát rẫy
+@phát sầu
+@phát sinh
+@phát sốt
+@phát tài
+@phát tán
+@phát tang
+@phát thanh
+@phát tích
+@phát tiết
+@phát triển
+@phát vãng
+@phát xạ
+@phát xít
+@phát xít
+@phát xuất
+@phạt
+@phạt đền
+@phạt góc
+@phạt mộc
+@phạt vạ
+@phau phau
+@phay
+@phăm phăm
+@phăm phắp
+@phăn phắt
+@phăng
+@phăng phắc
+@phăng teo
+@phẳng
+@phẳng lặng
+@phẳng lì
+@phẳng phắn
+@phẳng phiu
+@phắt
+@phầm phập
+@phẩm
+@phẩm bình
+@phẩm cách
+@phẩm cấp
+@phẩm chất
+@phẩm đề
+@phẩm giá
+@phẩm hàm
+@phẩm hạnh
+@phẩm loại
+@phẩm phục
+@phẩm trật
+@phẩm vật
+@phẩm vị
+@phân
+@phân bắc
+@phân bì
+@phân biệt
+@phân bón
+@phân bố
+@phân bua
+@phân cách
+@phân cấp
+@phân chất
+@phân chia
+@phân chuồng
+@phân công
+@phân cục
+@phân cực
+@phân đạm
+@phân điểm
+@phân định
+@phân giác
+@phân giải
+@phân hạch
+@phân hiệu
+@phân hoá
+@phân huỷ
+@phân khoa
+@phân kỳ
+@phân lân
+@phân lập
+@phân liệt
+@phân loại
+@phân lũ
+@phân ly
+@phân minh
+@phân niệm
+@phân phát
+@phân phối
+@phân quyền
+@phân rã
+@phân rác
+@phân số
+@phân suất
+@phân tách
+@phân tán
+@phân tâm
+@phân tích
+@phân tranh
+@phân trần
+@phân từ
+@phân tử
+@phân tươi
+@phân ưu
+@phân vân
+@phân vua
+@phân xanh
+@phân xử
+@phân xưởng
+@phần
+@phần cảm
+@phần đông
+@phần hồn
+@phần lẻ
+@phần lớn
+@phần mộ
+@phần nào
+@phần nhiều
+@phần phật
+@phần phò
+@phần thưởng
+@phần trăm
+@phần tử
+@phần ứng
+@phần việc
+@phẩn
+@phẫn
+@phẫn chí
+@phẫn đèn
+@phẫn nộ
+@phẫn uất
+@phấn
+@phấn chấn
+@phấn đấu
+@phấn khởi
+@phấn rôm
+@phấn sáp
+@phấn son
+@phận
+@phận sự
+@phấp phỏng
+@phấp phới
+@phập
+@phập phồng
+@phất
+@phất phơ
+@phất trần
+@phật
+@phật đài
+@phật giáo
+@phật học
+@phật thủ
+@phật tử
+@phẫu
+@phẫu thuật
+@phẫu tích
+@phây phây
+@phẩy
+@phe
+@phe cánh
+@phe phái
+@phe phẩy
+@phè
+@phè phè
+@phè phỡn
+@phen
+@phèn
+@phèn chua
+@phèn đen
+@phèn phẹt
+@phèng la
+@phèng phèng
+@phèo
+@phép
+@phép chia
+@phép cộng
+@phép cưới
+@phép đo
+@phép giải
+@phép khử
+@phép nhà
+@phép nhân
+@phép tắc
+@phép tính
+@phép trừ
+@phép vua
+@phét
+@phét lác
+@phẹt
+@phê
+@phê bình
+@phê chuẩn
+@phê phán
+@phề phệ
+@phế
+@phế bỏ
+@phế đế
+@phế lập
+@phế nhân
+@phế phẩm
+@phế tật
+@phế truất
+@phế vật
+@phế viêm
+@phệ
+@phệ nệ
+@phệ phệ
+@phếch
+@phên
+@phễn
+@phềnh
+@phềnh phềnh
+@phệnh
+@phết
+@phệt
+@phều phào
+@phễu
+@phi
+@phi báo
+@phi cảng
+@phi công
+@phi cơ
+@phi đao
+@phi đội
+@phi hành đoàn
+@phi kiếm
+@phi-la-tốp
+@phi lao
+@phi lộ
+@phi lý
+@phi nghĩa
+@phi ngựa
+@phi phàm
+@phi pháo
+@phi pháp
+@phi quân
+@phi quân sự
+@phi tang
+@phi tần
+@phi thường
+@phi truờng
+@phi vô sản
+@phi vụ
+@phi xuất
+@phì
+@phì cười
+@phì nhiêu
+@phì nộn
+@phì phà
+@phì phèo
+@phì phì
+@phì phị
+@phỉ
+@phỉ báng
+@phỉ chí
+@phỉ dạ
+@phỉ lòng
+@phỉ nguyền
+@phỉ nhổ
+@phỉ phong
+@phỉ sức
+@phí
+@phí phạm
+@phí phạn
+@phí tổn
+@phị
+@phìa
+@phìa tạo
+@phía
+@phích
+@phịch
+@phiếm
+@phiếm ái
+@phiếm chỉ
+@phiếm du
+@phiếm định
+@phiếm luận
+@phiếm thần luận
+@phiên
+@phiên âm
+@phiên dịch
+@phiên phiến
+@phiên thuộc
+@phiền
+@phiền hà
+@phiền lòng
+@phiền luỵ
+@phiền muộn
+@phiền não
+@phiền nhiễu
+@phiền phức
+@phiền tạp
+@phiền toái
+@phiến
+@phiến diện
+@phiến động
+@phiến loạn
+@phiến ma
+@phiết
+@phiệt duyệt
+@phiêu bạt
+@phiêu lưu
+@phiếu
+@phim
+@phím
+@phím loan
+@phin
+@phinh phính
+@phình
+@phình phịch
+@phình phình
+@phình phĩnh
+@phỉnh
+@phỉnh gạt
+@phỉnh mũi
+@phỉnh phờ
+@phĩnh
+@phính
+@phịu
+@pho
+@phò
+@phò mã
+@phò tá
+@phó
+@phó bảng
+@phó giáp trạng
+@phó lý
+@phó mát
+@phó-mát
+@phó mặc
+@phó sứ
+@phó thác
+@phó thương hàn
+@phó tiến sĩ
+@phó từ
+@phoi
+@phòi
+@phòi bọt mép
+@phón g đại
+@phong
+@phong ba
+@phong bao
+@phong bì
+@phong cách
+@phong cảnh
+@phong cầm
+@phong dao
+@phong địa
+@phong độ
+@phong hóa
+@phong hủi
+@phong kế
+@phong kiến
+@phong lan
+@phong lưu
+@phong nguyệt
+@phong nhã
+@phong phanh
+@phong phú
+@phong quang
+@phong sương
+@phong tặng
+@phong thái
+@phong thanh
+@phong thấp
+@phong thổ
+@phong thủy
+@phong thư
+@phong tình
+@phong tỏa
+@phong trào
+@phong trần
+@phong tục
+@phong tư
+@phong tước
+@phong văn
+@phong vân
+@phong vận
+@phong vũ biểu
+@phòng
+@phòng ăn
+@phòng bệnh
+@phòng bị
+@phòng dịch
+@phòng đảng
+@phòng gian
+@phòng gĩữ
+@phòng hỏa
+@phòng khi
+@phòng không
+@phòng ngự
+@phòng ngừa
+@phòng nhì
+@phòng ốc
+@phòng phong
+@phòng thân
+@phòng thí nghiệm
+@phòng thủ
+@phòng tối
+@phòng tuyến
+@phòng văn
+@phòng xa
+@phỏng
+@phỏng chừng
+@phỏng đoán
+@phỏng độ
+@phỏng vấn
+@phóng
+@phóng đãng
+@phóng điện
+@phóng hoả
+@phóng khoáng
+@phóng lãng
+@phóng pháo
+@phóng sinh
+@phóng sự
+@phóng tác
+@phóng tay
+@phóng thanh
+@phóng thích
+@phóng túng
+@phóng uế
+@phóng viên
+@phóng xạ
+@phót
+@phọt
+@phô
+@phô bày
+@phô diễn
+@phô trương
+@phổ biến
+@phổ cập
+@phổ độ
+@phổ nhạc
+@phổ thông
+@phố
+@phố phường
+@phố xá
+@phốc
+@phôi
+@phôi pha
+@phôi sinh học
+@phôi thai
+@phổi
+@phổi bò
+@phối cảnh
+@phối hợp
+@phôm phốp
+@phồm phàm
+@phồn hoa
+@phồn thịnh
+@phồn vinh
+@phông
+@phồng
+@phổng
+@phổng phao
+@phỗng
+@phốp
+@phốp pháp
+@phốt-phát
+@phốt-pho
+@phơ
+@phơ phơ
+@phờ
+@phở
+@phở áp chảo
+@phở nạm
+@phở nước
+@phở tái
+@phở xào
+@phở xốt vang
+@phơi
+@phơi bày
+@phơi phóng
+@phơi phới
+@phới phới
+@phơn phớt
+@phởn
+@phớn phở
+@phớt
+@phớt đều
+@phớt qua
+@phớt tỉnh
+@phu
+@phu nhân
+@phu phen
+@phu phụ
+@phu quân
+@phu thê
+@phu trạm
+@phu tử
+@phu xe
+@phù
+@phù chú
+@phù dâu
+@phù du
+@phù dung
+@phù hiệu
+@phù hoa
+@phù hộ
+@phù hợp
+@phù kế
+@phù phép
+@phù phiếm
+@phù phù
+@phù rể
+@phù sa
+@phù sinh
+@phù tá
+@phù thế
+@phù thủy
+@phù trầm
+@phù trì
+@phù trợ
+@phù vân
+@phù xuất
+@phủ
+@phủ chính
+@phủ doãn
+@phủ dụ
+@phủ đầu
+@phủ định
+@phủ nhận
+@phủ phục
+@phủ quyết
+@phủ tạng
+@phủ thừa
+@phũ
+@phũ phàng
+@phú
+@phú bẩm
+@phú cường
+@phú hào
+@phú hậu
+@phú nông
+@phú ông
+@phú quí
+@phú quý
+@phú thương
+@phú tính
+@phụ
+@phụ âm
+@phụ bạc
+@phụ bản
+@phụ cận
+@phụ cấp
+@phụ chánh
+@phụ đạo
+@phụ động
+@phụ giáo
+@phụ hệ
+@phụ họa
+@phụ huynh
+@phụ khoa
+@phụ khuyết
+@phụ lão
+@phụ lục
+@phụ lực
+@phụ mẫu
+@phụ nữ
+@phụ tá
+@phụ thân
+@phụ thu
+@phụ thuộc
+@phụ tình
+@phụ tố
+@phụ trách
+@phụ trương
+@phụ tùng
+@phụ tử
+@phụ ước
+@phụ vận
+@phúc
+@phúc án
+@phúc âm
+@phúc ấm
+@phúc đáp
+@phúc đức
+@phúc hạch
+@phúc hậu
+@phúc khảo
+@phúc kích
+@phúc lộc
+@phúc lợi
+@phúc mạc
+@phúc phận
+@phúc thẩm
+@phúc thần
+@phúc tinh
+@phúc tình
+@phúc tra
+@phúc trạch
+@phúc trình
+@phục
+@phục binh
+@phục chức
+@phục cổ
+@phục dịch
+@phục dược
+@phục hóa
+@phục hồi
+@phục hưng
+@phục kích
+@phục linh
+@phục mệnh
+@phục phịch
+@phục quốc
+@phục sinh
+@phục sức
+@phục thiện
+@phục thù
+@phục tòng
+@phục tội
+@phục tùng
+@phục vị
+@phục viên
+@phục vụ
+@phủi
+@phun
+@phun mưa
+@phùn phụt
+@phún xuất
+@phung
+@phung phá
+@phung phí
+@phung phúng
+@phùng
+@phủng
+@phúng dụ
+@phúng phính
+@phúng viếng
+@phụng
+@phụng chỉ
+@phụng dưỡng
+@phụng hoàng
+@phụng mệnh
+@phụng sự
+@phụng thờ
+@phút
+@phút chốc
+@phút đâu
+@phụt
+@phứa
+@phứa phựa
+@phức hợp
+@phức số
+@phức tạp
+@phưng phức
+@phước
+@phưỡn
+@phướn
+@phương
+@phương án
+@phương châm
+@phương chi
+@phương diện
+@phương giải
+@phương hại
+@phương hướng
+@phương kế
+@phương ngôn
+@phương pháp
+@phương phi
+@phương sách
+@phương tây
+@phương thuốc
+@phương thức
+@phương tiện
+@phương trình
+@phương trưởng
+@phương trượng
+@phường
+@phường chèo
+@phường hội
+@phường tuồng
+@phượng
+@phượng hoàng
+@phượng tây
+@phượu
+@phứt
+@phựt
+@pi
+@pi-a-nô
+@pi-ni-xi-lin
+@pi-rít
+@pin
+@pin khô
+@pla-tin
+@pô-pơ-lin
+@pô-tát
+@prô-tê-in
+@prô-tit
+@prô-tôn

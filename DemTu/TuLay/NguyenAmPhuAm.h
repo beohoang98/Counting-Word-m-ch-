@@ -3,6 +3,9 @@
 
 #define _CRT_SECURE_NO_WARNINGS
 
+#define fileNguyenAm L"../Data/NguyenAmDau.txt"
+#define filePhuAmDau L"../Data/PhuAmDau.txt"
+
 struct _nguyenAm {
 	wchar_t name;
 	int n; // so chu cai cung nguyen am
@@ -14,7 +17,13 @@ struct _danhSachNguyenAm {
 	_nguyenAm * ds; // danh sach cac nguyen am
 };
 
+struct _danhSachPhuAm {
+	int soAm;
+	wchar_t **phAm;
+};
+
 _danhSachNguyenAm DocDSNguyenAm(wchar_t * filename);
+_danhSachPhuAm DocDanhSachPhuAm(wchar_t *filename);
 
 //chuyen cai nguyen am dac biet thanh nguyen am thuong
 wchar_t ToNguyenAm(wchar_t a, _danhSachNguyenAm * DS);

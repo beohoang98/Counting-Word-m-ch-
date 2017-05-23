@@ -69,7 +69,11 @@
     <ClCompile Include="..\TuGhep\TuGhep.cpp" />
     <ClCompile Include="..\TuLay\NguyenAmPhuAm.cpp" />
     <ClCompile Include="..\TuLay\TuLay.cpp" />
+    <ClCompile Include="ChuongTrinhChinh.cpp" />
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChuongTrinhChinh.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

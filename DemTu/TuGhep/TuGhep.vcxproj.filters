@@ -35,5 +35,8 @@
     <ClCompile Include="..\TuLay\NguyenAmPhuAm.cpp">
       <Filter>Source Files\DuLieu</Filter>
     </ClCompile>
+    <ClCompile Include="..\TuDon\TuDon.cpp">
+      <Filter>Source Files\DuLieu</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
