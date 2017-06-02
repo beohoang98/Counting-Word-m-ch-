@@ -12,10 +12,10 @@
 
 bool readInput(danhSachTu &input);
 
-danhSachTu DemTu(danhSachTu &input, danhSachTu tuDienChu[], _danhSachNguyenAm &dsNgAm);
-danhSachTu DemTuDon(danhSachTu &input, danhSachTu tuDienChu[], _danhSachNguyenAm &dsNgAm);
-danhSachTu DemTuGhep(danhSachTu &input, danhSachTu tuDienChu[], _danhSachNguyenAm &dsNgAm);
-danhSachTu DemTuLay(danhSachTu &dsTuGhep, danhSachTu tuDienChu[], _danhSachNguyenAm &dsNgAm);
+danhSachTu DemTu(danhSachTu &input, danhSachTu tuDienChu[], _danhSachNguyenAm &dsNgAm); //dem tu
+danhSachTu DemTuDon(danhSachTu &input, danhSachTu tuDienChu[], _danhSachNguyenAm &dsNgAm); //dem tu don
+danhSachTu DemTuGhep(danhSachTu &input, danhSachTu tuDienChu[], _danhSachNguyenAm &dsNgAm); //dem tu ghep
+danhSachTu DemTuLay(danhSachTu &dsTuGhep, danhSachTu tuDienChu[], _danhSachNguyenAm &dsNgAm); //dem tu lay
 
 bool writeOutput(danhSachTu &input, danhSachTu tuDienChu[], _danhSachNguyenAm &dsNgAm);
 

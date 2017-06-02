@@ -1,5 +1,5 @@
 ﻿# Counting-Word (đếm chữ)
-<h1>Đồ án cuối kỳ 2:</h1>
+#Đồ án cuối kỳ 2:
 
 Cho 1 câu tiếng việt, thực hiện:
 1. Đếm số từ đơn
