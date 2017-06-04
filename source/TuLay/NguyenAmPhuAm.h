@@ -22,13 +22,8 @@ struct _danhSachPhuAm {
 _danhSachNguyenAm DocDSNguyenAm(wchar_t * filename);
 _danhSachPhuAm DocDanhSachPhuAm(wchar_t *filename);
 
-//chuyen cai nguyen am dac biet thanh nguyen am thuong
 wchar_t ToNguyenAm(wchar_t a, _danhSachNguyenAm * DS);
-
-//chuyen cac phu am dac biet thanh phu am thuong
 wchar_t ToPhuAm(wchar_t a);
-
-//chuyen chu cai xuong nguyen am thuong
 wchar_t mytoLower(wchar_t a, _danhSachNguyenAm * DS);
 
 #endif

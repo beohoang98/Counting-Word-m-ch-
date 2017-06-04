@@ -5,6 +5,10 @@
 #include <stdio.h>
 #include <malloc.h>
 
+/*
+	@param: chuoi ten file
+	@output: danh sach sau khi doc tu file
+*/
 _danhSachNguyenAm DocDSNguyenAm(wchar_t * filename) {
 	_danhSachNguyenAm DS = { 0, 0 };
 
@@ -13,10 +17,8 @@ _danhSachNguyenAm DocDSNguyenAm(wchar_t * filename) {
 		DS.soAm = -1;
 		return DS;
 	}
-
 	wchar_t p = L'\0';
 
-	//
 	while (!feof(f)) {
 		if (p == L'#') {
 			DS.soAm++;
@@ -38,29 +40,33 @@ _danhSachNguyenAm DocDSNguyenAm(wchar_t * filename) {
 }
 
 
-// Doc danh sach phu am
+/*
+	@param: chuoi ten file
+	@output: danh sach phu am doc tu file
+*/
 _danhSachPhuAm DocDanhSachPhuAm(wchar_t *filename) {
 	_danhSachPhuAm A = { -1, 0 };
 
 	FILE *f = _wfopen(DUONG_DAN_PH_AM, L"r,ccs=UTF-16LE");
 	if (!f) return A;
 
-	wchar_t c;
+	wchar_t letterA;
 	wchar_t s[5];
 
 	A.soAm = 0;
 	A.phAm = NULL;
 
 	//doc dau @ dau tien
-	fwscanf(f, L"%lc", &c);
+	fwscanf(f, L"%lc", &letterA);
 
 	while (!feof(f)) {
-		fwscanf(f, L"%[^@]ls", s);
-		fwscanf(f, L"%lc", &c);
+		fwscanf(f, L"%[^@]ls", s);//doc chuoi dung boi ki tu @
+		fwscanf(f, L"%lc", &letterA);//doc ki tu @
 
-		int len = wcslen(s);
-		A.phAm = (wchar_t**)realloc(A.phAm, (A.soAm + 1)*sizeof(wchar_t*));
-		A.phAm[A.soAm] = new wchar_t[len];
+		int len			= wcslen(s);
+		A.phAm			= (wchar_t**)realloc(A.phAm, (A.soAm + 1)*sizeof(wchar_t*));
+		A.phAm[A.soAm]	= new wchar_t[len];
+		
 		wcscpy(A.phAm[A.soAm], s);
 
 		A.soAm++;
@@ -72,7 +78,13 @@ _danhSachPhuAm DocDanhSachPhuAm(wchar_t *filename) {
 
 
 
-//chuyen cai nguyen am dac biet thanh nguyen am thuong
+/*
+	@param:
+	-a: chu cai can chuyen ve nguyen am chuan
+	-DS: danh sach nguyen am de so sanh
+	@output:
+	-nguyen am chuan
+*/
 wchar_t ToNguyenAm(wchar_t a, _danhSachNguyenAm * DS) {
 	a = towlower(a);
 	for (int i = 0; i < DS->soAm; ++i) {
@@ -85,12 +97,21 @@ wchar_t ToNguyenAm(wchar_t a, _danhSachNguyenAm * DS) {
 	return L'\0';
 }
 
-//chuyen cac phu am dac biet thanh phu am thuong
+/*
+	@param: chu cai can chuyen ve phu am chuan
+	@output: phu am chuan
+*/
 wchar_t ToPhuAm(wchar_t a) {
 	return (towlower(a));
 }
 
-//chuyen chu cai xuong nguyen am thuong
+/*
+	@param:
+	-a : chu cai can lowercase
+	-DS: danh sach nguyen am de su dung doi chieu
+	@output:
+	-chu cai da duoc lowercase
+*/
 wchar_t mytoLower(wchar_t a, _danhSachNguyenAm * DS) {
 	wchar_t c = ToNguyenAm(a, DS);
 	if (c == L'\0') c = ToPhuAm(a);
