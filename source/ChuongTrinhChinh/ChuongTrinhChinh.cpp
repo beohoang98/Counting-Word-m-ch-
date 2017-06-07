@@ -1,17 +1,19 @@
 ﻿#include "ChuongTrinhChinh.h"
 #include <wchar.h>
 
-bool readInput(danhSachTu &input) {
+bool readInput(danhSachTu &input) 
+{
 	FILE *f = _wfopen(fileInput, L"r,ccs=UTF-16LE");
 	if (f == NULL) return false;
 
 	input.soTu	= 0;
 	input.tu	= NULL;
-	while (!feof(f)) {
+	while (!feof(f)) 
+	{
 		wchar_t s[40];
 		fwscanf(f, L"%ls", &s);
 		
-		input.tu = (wchar_t**)realloc(input.tu, (input.soTu+1)*sizeof(wchar_t*));
+		input.tu			 = (wchar_t**)realloc(input.tu, (input.soTu+1)*sizeof(wchar_t*));
 		input.tu[input.soTu] = new wchar_t[wcslen(s) + 1];
 		wcscpy(input.tu[input.soTu], s);
 
@@ -23,32 +25,68 @@ bool readInput(danhSachTu &input) {
 }
 
 //kiem tra cac chu co trung lap lai khong
-bool KiemTraTuTrongDS(wchar_t * s, danhSachTu &DS) {
+bool KiemTraTuTrongDS(wchar_t * s, danhSachTu &DS) 
+{
 	for (int i = 0; i < DS.soTu; ++i) {
 		if (wcscmp(s, DS.tu[i]) == 0) return true;
 	}
 	return false;
 }
+
 //them tu vao danh sach
-void ThemTuVaoDanhSach(wchar_t * s, danhSachTu &DS) {
-	DS.tu = (wchar_t**)realloc(DS.tu, (DS.soTu + 1)*sizeof(wchar_t*));
-	DS.tu[DS.soTu] = new wchar_t[wcslen(s) + 1];
+void ThemTuVaoDanhSach(wchar_t * s, danhSachTu &DS) 
+{
+	DS.tu			= (wchar_t**)realloc(DS.tu, (DS.soTu + 1)*sizeof(wchar_t*));
+	DS.tu[DS.soTu]	= new wchar_t[wcslen(s) + 1];
 	wcscpy(DS.tu[DS.soTu], s);
 	DS.soTu++;
 }
 
 
-danhSachTu DemTu(danhSachTu &input, danhSachTu tuDienChu[], _danhSachNguyenAm &dsNgAm) {
+danhSachTu DemTu(danhSachTu &input, danhSachTu tuDienChu[], _danhSachNguyenAm &dsNgAm) 
+{
 	danhSachTu dsTu = { 0, NULL };
-	for (int i = 0; i < input.soTu; ++i) {
-		bool chuaCoTrongDS = !KiemTraTuTrongDS(input.tu[i], dsTu);
-		if (chuaCoTrongDS) {
+	wchar_t tmp[40] = L"\0";
+	for (int i = 0; i < input.soTu; ++i) 
+	{
+		bool coNghia		= KiemTraTuDon(input.tu[i], tuDienChu, dsNgAm);
+		bool chuaCoTrongDS	= !KiemTraTuTrongDS(input.tu[i], dsTu);
+		bool canXetTuDangTruoc = tmp[0] != L'\0';
+
+		if (coNghia && !canXetTuDangTruoc && chuaCoTrongDS)
+		{
 			ThemTuVaoDanhSach(input.tu[i], dsTu);
 		}
+		else if (canXetTuDangTruoc)
+		{
+			bool tuGhepCoNghia = KiemTraTuGhep(tmp, input.tu[i], tuDienChu, dsNgAm);
+			if (tuGhepCoNghia) 
+			{
+				wchar_t * tuCanGhep = new wchar_t[wcslen(tmp) + wcslen(input.tu[i]) + 2]; // " " va "\0"
+
+				wcscpy(tuCanGhep, tmp);
+				wcscat(tuCanGhep, L" ");
+				wcscat(tuCanGhep, input.tu[i]);// ghep 2 tu don thanh tu ghep
+
+				ThemTuVaoDanhSach(tuCanGhep, dsTu);
+			}
+			else {
+				i--;
+			}
+
+			tmp[0] = L'\0'; //tu sau do se khong can xet lai tu nay
+		}
+		else 
+		{ //tu don khong co nghia hoac da co trong danh sach
+			wcscpy(tmp, input.tu[i]);
+			//bo qua den tu ke tiep
+		}
+
 	}
 	return dsTu;
 }
-danhSachTu DemTuDon(danhSachTu &input, danhSachTu tuDienChu[], _danhSachNguyenAm &dsNgAm) {
+danhSachTu DemTuDon(danhSachTu &input, danhSachTu tuDienChu[], _danhSachNguyenAm &dsNgAm) 
+{
 	danhSachTu dsTuDon = { 0, NULL };
 	for (int i = 0; i < input.soTu; ++i) 
 	{
@@ -56,7 +94,8 @@ danhSachTu DemTuDon(danhSachTu &input, danhSachTu tuDienChu[], _danhSachNguyenAm
 	}
 	return dsTuDon;
 }
-danhSachTu DemTuGhep(danhSachTu &input, danhSachTu tuDienChu[], _danhSachNguyenAm &dsNgAm) {
+danhSachTu DemTuGhep(danhSachTu &input, danhSachTu tuDienChu[], _danhSachNguyenAm &dsNgAm) 
+{
 	danhSachTu dsTuGhep = { 0, NULL };
 	for (int i = 0; i < input.soTu-1; ++i) 
 	{
@@ -77,7 +116,8 @@ danhSachTu DemTuGhep(danhSachTu &input, danhSachTu tuDienChu[], _danhSachNguyenA
 	}
 	return dsTuGhep;
 }
-danhSachTu DemTuLay(danhSachTu &dsTuGhep, danhSachTu tuDienChu[], _danhSachNguyenAm &dsNgAm) {
+danhSachTu DemTuLay(danhSachTu &dsTuGhep, danhSachTu tuDienChu[], _danhSachNguyenAm &dsNgAm) 
+{
 	danhSachTu dsTuLay = { 0, NULL };
 	for (int i = 0; i < dsTuGhep.soTu; ++i)
 	{
@@ -89,14 +129,16 @@ danhSachTu DemTuLay(danhSachTu &dsTuGhep, danhSachTu tuDienChu[], _danhSachNguye
 		bool chuaCoTrongDS	= !KiemTraTuTrongDS(dsTuGhep.tu[i], dsTuLay);
 		bool dungQuiTac		= KiemTraTuLay(tuDau, tuSau, tuDienChu, &dsNgAm);
 
-		if ( chuaCoTrongDS && dungQuiTac ) {
+		if ( chuaCoTrongDS && dungQuiTac ) 
+		{
 			ThemTuVaoDanhSach(dsTuGhep.tu[i], dsTuLay);
 		}
 	}
 	return dsTuLay;
 }
 
-void ghiDS(FILE *f, danhSachTu &DS, wchar_t * ten) {
+void ghiDS(FILE *f, danhSachTu &DS, wchar_t * ten) 
+{
 	fwprintf(f, L"%ls: %d\n\t", ten, DS.soTu);
 	for (int i = 0; i < DS.soTu; ++i) {
 		fwprintf(f, L"%ls,", DS.tu[i]);
@@ -104,7 +146,8 @@ void ghiDS(FILE *f, danhSachTu &DS, wchar_t * ten) {
 	fwprintf(f, L"\n");
 }
 
-bool writeOutput(danhSachTu &input, danhSachTu tuDienChu[], _danhSachNguyenAm &dsNgAm) {
+bool writeOutput(danhSachTu &input, danhSachTu tuDienChu[], _danhSachNguyenAm &dsNgAm) 
+{
 	danhSachTu dsTu		= DemTu(input, tuDienChu, dsNgAm);
 	danhSachTu dsTuDon	= DemTuDon(input, tuDienChu, dsNgAm);
 	danhSachTu dsTuGhep	= DemTuGhep(input, tuDienChu, dsNgAm);
@@ -124,7 +167,8 @@ bool writeOutput(danhSachTu &input, danhSachTu tuDienChu[], _danhSachNguyenAm &d
 	return true;
 }
 
-void BaoLoi(char * mes) {
+void BaoLoi(char * mes) 
+{
 	printf("%s", mes);
 	_getch();
 	exit(0);

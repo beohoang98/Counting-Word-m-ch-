@@ -16,8 +16,7 @@ void DocTuDien(wchar_t ch, danhSachTu dic[24], _danhSachNguyenAm * DS_vowel)
 	wchar_t letterA;
 
 	int vt = vowelOrder(mytoLower(ch, DS_vowel), fileName[0]);
-	if (dic[vt].soTu > 0) return; 
-	// neu tu dien ung voi chu cai ch da doc roi thi ko doc nua
+	if (dic[vt].soTu > 0) return;// neu tu dien ung voi chu cai ch da doc roi thi ko doc nua
 
 	wcscpy(filePath, DUONG_DAN_TU_DIEN);
 	wcscat(filePath, fileName);
@@ -40,7 +39,6 @@ void DocTuDien(wchar_t ch, danhSachTu dic[24], _danhSachNguyenAm * DS_vowel)
 
 		dic[vt].tu	= (wchar_t**)realloc(dic[vt].tu, (dic[vt].soTu+1)*sizeof(wchar_t*));
 		tmp			= new wchar_t[(wcslen(s) + 1)];
-
 		wcscpy(tmp, s);
 
 		dic[vt].tu[dic[vt].soTu] = tmp;
@@ -57,10 +55,12 @@ void DocTuDien(wchar_t ch, danhSachTu dic[24], _danhSachNguyenAm * DS_vowel)
 	param: vowel
 	output: vowelOrder, outVowel
 */
-int vowelOrder(wchar_t vowel, wchar_t &outVowel) {
+int vowelOrder(wchar_t vowel, wchar_t &outVowel) 
+{
 
 	FILE *f = _wfopen(DUONG_DAN_THU_TU_AM, L"r,ccs=UTF-16LE");
-	if (!f) {
+	if (!f) 
+	{
 		return -1;// file ko tim thay
 	}
 

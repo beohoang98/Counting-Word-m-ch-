@@ -3,13 +3,15 @@
 
 #define _CRT_SECURE_NO_WARNINGS
 
-struct _nguyenAm {
+struct _nguyenAm 
+{
 	wchar_t name;
 	int n; // so chu cai cung nguyen am
 	wchar_t * ds; //danh sach cac chu cai cung nguyen am
 };
 
-struct _danhSachNguyenAm {
+struct _danhSachNguyenAm 
+{
 	int soAm;
 	_nguyenAm * ds; // danh sach cac nguyen am
 };
